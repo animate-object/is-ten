@@ -4,7 +4,7 @@
   "description": "simple package to test for tenness",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/animate-object/is-ten/issues"
   },
-  "homepage": "https://github.com/animate-object/is-ten#readme"
+  "homepage": "https://github.com/animate-object/is-ten#readme",
+  "devDependencies": {
+    "jasmine": "^3.4.0"
+  }
 }
