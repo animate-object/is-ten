@@ -6,6 +6,24 @@
 
 'use-strict';
 
- module.exports = function(val) {
-    return val === 10;
- }
+const isOdd = require('is-odd')
+const isIsOdd = require('is-is-odd')
+
+module.exports = function(val) {
+  if (isIsOdd(isOdd)) {
+    try {
+      if (isOdd(val)) {
+        return false
+      }
+    } catch (e) {
+      return false;
+    }
+    return _isTen(val);
+  } else {
+      throw new Error("isOdd was not isOdd");
+  }
+}
+
+const _isTen = (val) => {
+  return val === 10;
+}

@@ -28,5 +28,9 @@
   "homepage": "https://github.com/animate-object/is-ten#readme",
   "devDependencies": {
     "jasmine": "^3.4.0"
+  },
+  "dependencies": {
+    "is-is-odd": "^1.0.2",
+    "is-odd": "^3.0.1"
   }
 }
