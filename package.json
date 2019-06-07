@@ -4,7 +4,8 @@
   "description": "simple package to test for tenness",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine",
+    "commit": "./scripts/commit.sh"
   },
   "repository": {
     "type": "git",
