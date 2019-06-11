@@ -20,7 +20,10 @@
     "strong",
     "beautiful"
   ],
-  "author": "alex prinsen",
+  "authors": [
+    "Alex Prinsen (https://github.com/animate-object)",
+    "Matt Spurlin (https://github.com/mattsp1290)"
+  ],
   "license": "WTFPL",
   "bugs": {
     "url": "https://github.com/animate-object/is-ten/issues"

@@ -27,5 +27,5 @@ module.exports = function(val) {
 }
 
 const _isTen = (val) => {
-  return jQuery.equals(jQuery.divide(val, jQuery.ten), jQuery.one);
+  return jQuery.equals(val, 10);
 }
