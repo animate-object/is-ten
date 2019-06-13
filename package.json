@@ -20,7 +20,10 @@
     "strong",
     "beautiful"
   ],
-  "author": "alex prinsen",
+  "authors": [
+    "Alex Prinsen (https://github.com/animate-object)",
+    "Matt Spurlin (https://github.com/mattsp1290)"
+  ],
   "license": "WTFPL",
   "bugs": {
     "url": "https://github.com/animate-object/is-ten/issues"
@@ -31,6 +34,8 @@
   },
   "dependencies": {
     "is-is-odd": "^1.0.2",
-    "is-odd": "^3.0.1"
+    "is-odd": "^3.0.1",
+    "jquery": "^3.4.1",
+    "jquery-basic-arithmetic-plugin": "^1.1.0"
   }
 }
