@@ -2,7 +2,7 @@
  * Unit tests for the is 10 module
  */
 
-const isTen = require('../')
+const isTen = require('../');
 
 
 describe('is 10', () => {
@@ -20,6 +20,12 @@ describe('is 10', () => {
         notTen.forEach(x => {
             expect(isTen(x)).toEqual(false)
         });
+    });
+});
+
+describe('A value that is not even a number', () => {
+    it('should return false', () => {
+        expect(isTen(Infinity)).toEqual(false);
     });
 });
 

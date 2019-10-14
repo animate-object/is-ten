@@ -8,10 +8,15 @@
 
 const isOdd = require('is-odd')
 const isIsOdd = require('is-is-odd')
+const isNumber = require('is-number');
 global.jQuery = require('jquery');
 require('jquery-basic-arithmetic-plugin')
 
 module.exports = function(val) {
+  if (!isNumber(val)) {
+    return false;
+  }
+
   if (isIsOdd(isOdd)) {
     try {
       if (isOdd(val)) {
