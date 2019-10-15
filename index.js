@@ -7,6 +7,7 @@
 'use-strict';
 
 const isOdd = require('is-odd')
+const avul = require('avul')
 const isIsOdd = require('is-is-odd')
 global.jQuery = require('jquery');
 require('jquery-basic-arithmetic-plugin')
@@ -27,5 +28,5 @@ module.exports = function(val) {
 }
 
 const _isTen = (val) => {
-  return jQuery.equals(val, 10);
+  return jQuery.equals(val, 10) && avul.equals(val, 10);
 }

@@ -34,6 +34,7 @@
   },
   "dependencies": {
     "is-is-odd": "^1.0.2",
+    "avul": "^0.3.9",
     "is-odd": "^3.0.1",
     "jquery": "^3.4.1",
     "jquery-basic-arithmetic-plugin": "^1.1.0"
